@@ -116,6 +116,7 @@ button {
   border-radius: 1rem;
   outline: none;
   border: double;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   transform: .7s ease-out;
@@ -306,7 +307,14 @@ td {
   }
 
   .main-container {
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  .experience {
+    height: 530px;
+  }
+  .education {
+    height: 390px;
   }
 
   .left-content {
@@ -318,6 +326,7 @@ td {
     height: 230px;
   }
   .personal-quolities {
+    padding-top: 18%;
     padding-left: 10%;
     height: 200px;
   }
