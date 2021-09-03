@@ -10,35 +10,34 @@
 </head>
 <body>
     <!--Wraper-->
-  <div class="wrapper">
   <div class="container" id="container">
     <!-- top part -->
-    <div class="top-content">
-      <div class="top-inner">
-        <div class="basic-info">
-          <h1 id="name" class="name">Olena Bryzh</h1>
+    <header class="top-content">
+      <section class="top-inner">
+        <article class="basic-info">
+          <h2 id="name" class="name">Olena Bryzh</h2>
           <p id="role" class="role">- web developer -</p>
           <p><i class="fas fa-map-marker-alt"></i>Ukraine, Kramatorsk</p>
           <p><i class="fas fa-phone-square-alt"></i>+380968237892</p>
           <p><i class="fas fa-envelope"></i>hbrysh95@gmail.com</p>
-        </div>
+        </article>
         <div class="photo">
-          <img src="img/av1.jpg">
+          <img src="img/cv_photo.jpg" alt="Applicant's photo">
         </div>
-      </div>
+      </section>
       <div class="download-area">
-        <div>
+        <div class="profiles">
          <a href="https://www.linkedin.com/in/olena-bryzh/"  target="_blank"><i class="fab fa-linkedin"></i></a> 
          <a href="https://github.com/OlenaBryzh" target="_blank"><i class="fab fa-github-square"></i></a> 
         </div>
-        <button><a class="cv" href="https://drive.google.com/file/d/1fgi1POkJ3Mt6IZns2S0nUTQ_L_n6SQ0w/view?usp=sharing" target="_blank">Download CV</a></button>
+        <a class="button" href="https://drive.google.com/file/d/1fgi1POkJ3Mt6IZns2S0nUTQ_L_n6SQ0w/view?usp=sharing" target="_blank">Download CV</a>
       </div>
-    </div>
+    </header>
     <!-- Main info -->
-    <div class="main-container">
+    <main class="main-container">
       <!-- left part -->
-      <div class="left-content">
-        <div class="skills">
+      <section class="left-content">
+        <article class="skills">
           <h3>Professional skills</h3>
           <ul>
             <li>HTML5</li>
@@ -47,13 +46,12 @@
             <li>Bootstrap</li>
             <li>JavaScript</li>
             <li>ES6</li>
-            <li>React</li>
             <li>Git</li>
             <li>Linux</li>
             <li>Figma</li>
           </ul>
-        </div>
-        <div class="personal-quolities">
+        </article>
+        <article class="personal-quolities">
           <h3>Personal quolities</h3>
           <ul>
             <li>Communicativeness</li>
@@ -61,19 +59,20 @@
             <li>Creativity</li>
             <li>Self-learning abilities</li>
           </ul>
-        </div>
-        <div class="lang">
+        </article>
+        <article class="lang">
           <h3>Languages</h3>
           <ul>
             <li>English</li>
             <li>Polish</li>
             <li>Ukrainian</li>
+            <li>Russian</li>
           </ul>
-        </div>
-      </div>
+        </article>
+      </section>
       <!-- right part -->
-      <div class="right-content">
-        <div class="experience">
+      <section class="right-content">
+        <article class="experience">
           <h3>Experience</h3>
           <table>
             <tbody>
@@ -107,8 +106,8 @@
               </tr>
             </tbody>
           </table>
-        </div>
-        <div class="education">
+        </article>
+        <article class="education">
           <h3>Education</h3>
           <table>
             <tbody>
@@ -131,9 +130,9 @@
                   </td>
                 </tr>
               </tbody>
-              </table>
-        </div>
-        <div class="certificates">
+            </table>
+        </article>
+        <article class="certificates">
           <h3>Certificates</h3>
           <table>
             <tbody>
@@ -148,12 +147,22 @@
                 </td>
               </tr>
             </tbody>
-          </table>
-          
-        </div>
-      </div>
-    </div>
+          </table> 
+        </article>
+        <article class="project-links">
+          <h4>Work samples</h4>
+          <div class="links">
+          <a href="https://olenabryzh.github.io/menu-js-project/" target="_blank">Menu project</a>
+          <a href="https://olenabryzh.github.io/quote-generator/" target="_blank">Quote generator</a>
+          <a href="https://github.com/OlenaBryzh/js-chrome-extension" target="_blank">Chrome extension</a>
+          <a href=" https://olenabryzh.github.io/bootstrap-project/" target="_blank">Landing page with Bootstarp</a>
+          <a href="https://olenabryzh.github.io/gallery-landing/" target="_blank">Gallery Landing</a>
+          </div>
+          <h4>Open source contribution</h4>
+          <a class="contribut" href="https://github.com/aristofun/webdevdao/graphs/contributors" target="_blank" rel="noopener noreferrer">https://github.com/aristofun/webdevdao</a>
+        </article>
+      </section>
+    </main>
   </div>
-</div>
 </body>
 </html>
